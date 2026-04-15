@@ -1,3 +1,11 @@
+Steps:
+1. Create a table in dynamoDB with attributes id type string.
+2. create role in IAM with fulldynamoAccess and lambdaBasicexecutionrole
+3. create 4 lambda functions for creation, deletion, updation and get (create-todo, get-todo, update-todo, delete-todo)
+4. create a resource named todo in API gateway and create POST, GET methods and deploy and copy the invoke url and paste it in html file.
+   here your serverless todo-list API working using aws lambda, dynamoDB.
+
+
 frontend: html+js
 backend (serverless using AWS): 
      DynamoDB
