@@ -1,3 +1,7 @@
+Tech Stack:
+UI: html+js
+backend(serverless using AWS): lambda functions and DynamoDB
+
 Steps:
 1. Create a table in dynamoDB with attributes id type string.
 2. create role in IAM with fulldynamoAccess and lambdaBasicexecutionrole
@@ -6,9 +10,6 @@ Steps:
    here your serverless todo-list API working using aws lambda, dynamoDB.
 
 
-frontend: html+js
-backend (serverless using AWS): 
-     DynamoDB
      todo-api/  
           ├── lambdas/  
           │    ├── create_todo.py   
